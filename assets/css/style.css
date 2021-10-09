@@ -25,3 +25,13 @@ header nav{
     float:right;
     margin:7px 0;
 }
+/*we will make the menu items lined up*/
+header nav ul li{
+    display:inline;
+}
+/*nav links text styles*/
+header nav ul li a{
+    font-size:22px;
+    font-weight:lighter;
+    margin:0 30px;
+}
