@@ -42,3 +42,10 @@ header nav ul li a{
     font-weight:lighter;
     margin:0 30px;
 }
+
+/*Footer styles*/
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
