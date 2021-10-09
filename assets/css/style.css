@@ -20,3 +20,8 @@ header a{
     color:#fce138;
     text-decoration:none;
 }
+/*header nav styles*/
+header nav{
+    float:right;
+    margin:7px 0;
+}
