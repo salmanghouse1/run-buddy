@@ -2,7 +2,8 @@
 * {
     margin: 0;
     padding: 0;
-  }
+    box-sizing: border-box;
+}
 
 /*Body Styles*/
 body{
@@ -62,3 +63,7 @@ footer div{
     text-align:right;
     line-height:1.5;
 }
+/*footer link style*/
+footer a {
+    color: #024e76;
+  }
