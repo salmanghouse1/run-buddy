@@ -1,3 +1,9 @@
+/*All elements have no padding or margin*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 /*Body Styles*/
 body{
     color:#39a6b2;
