@@ -179,42 +179,23 @@ footer a {
 .trainers {
   text-align: center;
 }
-.trainer {
+/*trainer styles created a set width*/
+.trainer{
   width: 900px;
   margin: 0 auto 30px auto;
   background: #024e76;
   color: #fce138;
+/*created overflow style*/
   overflow:auto;
 }
-.trainer img {
+.trainer img{
   width: 35%;
   float: left;
 }
-.trainer-bio {
+.trainer-bio{
   padding: 35px;
   float: left;
   width: 65%;
-}
-.text-left {
-  text-align: left;
-}
-.text-right {
-  text-align: right;
-}
-.trainer img {
-  width: 35%;
-  float: left;
-}
-.trainer-bio {
-  padding: 35px;
-  float: left;
-  width: 65%;
-}
-.text-left {
-  text-align: left;
-}
-.text-right {
-  text-align: right;
 }
 .trainer-bio h3 {
   font-size: 32px;
@@ -228,4 +209,10 @@ footer a {
 .trainer-bio p {
   font-size: 17px;
   line-height: 1.3;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
 }
