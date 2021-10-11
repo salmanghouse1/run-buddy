@@ -43,7 +43,10 @@ header nav ul li a{
   font-weight:lighter;
   margin:0 30px;
 }
-
+/*section padding*/
+section {
+  padding: 60px;
+}
 /*Footer styles*/
 footer {
   background: #fce138;
@@ -181,6 +184,7 @@ footer a {
   margin: 0 auto 30px auto;
   background: #024e76;
   color: #fce138;
+  overflow:auto;
 }
 .trainer img {
   width: 35%;
