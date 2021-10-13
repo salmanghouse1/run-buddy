@@ -6,21 +6,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .bios{width:65%;}        
-        img{float:left;}
-    </style>
+        
+        header{
+            padding:20px 30px;
+            background-color: #39a6b2;;
+        }
+        header nav ul li{
+            display: inline;
+        }
+        header nav ul li a{
+            margin:0 30px;
+            font-weight: lighter;
+            font-size:20px;
+        }
+        header h1{
+            display: inline;
+        }
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        footer{width:100%;
+            
+
+        background-color: yellow;
+        padding: 40px 30px;
+        }
+        footer h2{
+            display: inline;
+        }
+        footer div{
+            float:right;
+        }
+
+        header nav{
+            float:right;
+            margin:7px 0;
+        }
+        .intro{
+            text-align: center;
+           
+        }
+        .intro h2{
+            border-bottom:2px solid blue;
+            display: inline-block; 
+        }
+        .intro p{
+            width:80%;
+            margin:0 auto;
+        }
+        .trainers{text-align: center;}
+        .trainer{width:900px;
+        overflow: auto;
+        margin:0 auto 30px auto;
+        }
+        .trainer img{
+            float:left;
+            width:35%;
+        }
+        .trainer-bio{
+            width:65%;
+            float:left;
+            background-color: #39a6b2;
+        }
+</style>
 </head>
 <body>
-    <article class='bios'>
-        <div class='bio text-left'>
-            <h3>Some Title</h3>
-            <p>Some Text</p>
-        </div>
-        <img src='./assets/images/trainer-1.jpg' />
+<header>
+    <h1>Salmans Bio</h1>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+</header>
 
+<section class='intro'>
+    <h2>What we do</h2>
+    <p>Some text goes here</p>
+</section>
+<article class="trainers">
+<div class="trainer">
+<img src="./assets/images/trainer-1.jpg"><div class="trainer-bio"><h2>John</h2>
+<p>asdnflkjdljaksdnvlksnlksdknjvlsdjnvkjldsnkjlsnfjlknsdflkjadsnkjlsdnfjwleknflkj</p>
+</div></div>
+</div>
+<div class="trainer">
+    <div class="trainer-bio"><h2>John</h2>
+        <p>asdnflkjdljaksdnvlksnlksdknjvlsdjnvkjldsnkjlsnfjlknsdflkjadsnkjlsdnfjwleknflkj</p>
+        </div><img src="./assets/images/trainer-2.jpg">
+</div>
+<div class="trainer">
+<img src="./assets/images/trainer-3.jpg"><div class="trainer-bio"><h2>John</h2>
+    <p>asdnflkjdljaksdnvlksnlksdknjvlsdjnvkjldsnkjlsnfjlknsdflkjadsnkjlsdnfjwleknflkj</p>
+    </div>
+</div>
 
-
-    </article>
+</article>
+    <footer>
+<h2>Made By Salman</h2>
+<div><a href="">Privacy Policy</a></div>
+    </footer>
     <!--
     <article class='bios'>
         <img src='./assets/images/trainer-1.jpg' />
