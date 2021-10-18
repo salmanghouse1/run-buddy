@@ -305,3 +305,8 @@ footer a {
 .contact-info a {
   color: #fce138;
 }
+/* these two colors will override the ones above in .hero */
+.hero-secondary {
+  background-color: black;
+  color: red;
+}
