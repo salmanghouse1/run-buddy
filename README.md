@@ -1,16 +1,7 @@
-# Run Buddy Inc.
-
-This is a readme file.
-
-*This is a showcase of frontend development website Run Buddy
-
-## Link
-[salmanwebdeveloper.com](https://www.salmanwebdeveloper.com)
-
-# Run Buddy
+# Run Buddy, Inc
 
 ## Purpose
-A website that offers fitness training services.
+A website that offers fitness training services. 
 
 ## Built With
 * HTML
@@ -20,5 +11,7 @@ A website that offers fitness training services.
 https://lernantino.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by [Salman Ghouse](salmanwebdeveloper.com)
+Made with ❤️ by [Salman Ghouse](http://www.salmanwebdeveloper.com)
+
+### ©️2019 Run Buddy, Inc 
 
