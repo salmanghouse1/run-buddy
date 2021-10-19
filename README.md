@@ -1,4 +1,4 @@
-# Front End Run Buddy Website
+# Run Buddy Inc.
 
 This is a readme file.
 
