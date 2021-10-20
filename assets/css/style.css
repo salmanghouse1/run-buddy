@@ -40,15 +40,23 @@ header nav{
   /*removed float right*/
   margin:7px 0;
 }
+/* header nav ul styles */
+nav ul li{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
 /*we will make the menu items lined up*/
 header nav ul li{
   display:inline;
 }
 /*nav links text styles*/
 header nav ul li a{
-  font-size:22px;
-  font-weight:lighter;
-  margin:0 30px;
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.55vw;
 }
 /*section padding*/
 section {
