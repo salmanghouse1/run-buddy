@@ -21,6 +21,7 @@ header{
   /* using flex wrap to wrap content */
   flex: wrap;
 }
+
 /*h1 tag in header*/
 header h1{
   font-weight:bold;
