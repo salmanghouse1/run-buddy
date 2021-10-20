@@ -14,6 +14,12 @@ body{
 header{
   padding:20px 35px;
   background-color: #39a6b2;
+  /* added display flex */
+  display: flex;
+  /* Justify content space between */
+  justify-content: space-between;
+  /* using flex wrap to wrap content */
+  flex: wrap;
 }
 /*h1 tag in header*/
 header h1{
@@ -21,7 +27,7 @@ header h1{
   font-size:36px;
   color:#fce138;
   margin:0;
-  display:inline;
+  /* removed display inline */
 }
 /*a tag*/
 header a{
@@ -30,7 +36,7 @@ header a{
 }
 /*header nav styles*/
 header nav{
-  float:right;
+  /*removed float right*/
   margin:7px 0;
 }
 /*we will make the menu items lined up*/
