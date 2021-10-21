@@ -13,7 +13,22 @@
     }
     /*Header*/
     
+    .rounded-corners {
+        -webkit-border-radius: 10px;
+        /* old versions of chrome and safari */
+        -moz-border-radius: 10px;
+        /* old versions of firefox */
+        border-radius: 10px;
+        /* standardized browsers */
+    }
+    
     header {
+        background-image: url("../images/hero-bg.jpg");
+        background-size: cover;
+        background-position: 80%;
+        background-attachment: fixed;
+        position: sticky;
+        top: 0;
         padding: 20px 35px;
         background-color: #39a6b2;
         /* added display flex */
@@ -26,6 +41,8 @@
     /*h1 tag in header*/
     
     header h1 {
+        /* text shadow */
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         font-weight: bold;
         font-size: 36px;
         color: #fce138;
@@ -65,6 +82,8 @@
         padding: 10px 15px;
         font-weight: lighter;
         font-size: 1.55vw;
+        /* text shadow */
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
     /*section padding*/
     
@@ -107,6 +126,8 @@
     /*Hero section styles*/
     
     .hero {
+        background-position: 80%;
+        background-attachment: fixed;
         padding: 60px;
         background-image: url("../images/hero-bg.jpg");
         background-size: cover;
@@ -122,7 +143,12 @@
     /*hero form styles and class*/
     
     .hero-form {
-        background-color: #fce138;
+        /* background color is now 80% opaque and is rgba */
+        background-color: rgba(252, 225, 56, 80%);
+        /* box shadow is now added to the form */
+        box-shadow: rgba(0, 0, 0, 0.5);
+        /* border radius adds curvature to the box form */
+        border-radius: 15px;
         padding: 20px;
         color: #024e76;
         border: solid 3px #024e76;
@@ -145,6 +171,8 @@
     /* hero cta heading 2 gave the text some styling*/
     
     .hero-cta h2 {
+        /* text shadow */
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         font-size: italic;
         font-size: 55px;
         color: #fce138;
@@ -184,10 +212,21 @@
         border: none;
         padding: 10px 20px;
         font-size: 16px;
+        border-radius: 15px;
     }
     /* HERO STYLES END */
     /*What we do section Styles*/
     /* removed intro its not neccessary */
+    /* contact form input styles */
+    
+    .contact-form input,
+    .contact-form textarea {
+        border-radius: 10px;
+    }
+    
+    .contact-form button {
+        border-radius: 10px;
+    }
     
     .intro p {
         line-height: 1.7;
@@ -381,6 +420,46 @@
         margin-bottom: 35px;
         color: #024e76;
     }
+    /* hover classes */
+    
+    header nav ul li a:hover {
+        background: #fce138;
+        color: #024e76;
+        border-radius: 15px;
+        text-shadow: none;
+    }
+    
+    .form-input {
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+    
+    .form-input:focus {
+        background-color: rgba(255, 255, 255, 1);
+        outline: none;
+    }
+    /* create a new rule for focus state */
+    
+    .hero-form button:hover {
+        background-color: #39a6b2;
+    }
+    /* last step border */
+    
+    .step {
+        border-bottom: 1px solid #39a6b2;
+    }
+    
+    .step:nth-child(even) {
+        border-bottom: 1px solid #39a6b2;
+    }
+    
+    .step:last-child {
+        border-bottom: none;
+    }
+    
+    .contact-form button:hover {
+        color: #fce138;
+        background: #39a6b2;
+    }
     /* REACH OUT STYLES END */
     
     .contact-info div {
@@ -433,6 +512,8 @@
     
     @media screen and (max-width: 980px) {
         header {
+            position: relative;
+            top: 0px;
             padding-bottom: 0;
             justify-content: center;
         }
@@ -457,6 +538,10 @@
         .hero-cta,
         .hero-form {
             width: 100%;
+            /* 80% opaque background color */
+            background-color: rgba(252, 225, 56, 80%);
+            /* box shadow */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
         .hero-cta {
             text-align: center;
