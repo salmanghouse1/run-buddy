@@ -90,7 +90,9 @@ footer a {
 }
 
 .hero-cta {
-  width: 70%;
+  width: 50%;
+  background-color: aqua;
+  font-weight: bold;
 }
 
 /*hero form styles and class*/
